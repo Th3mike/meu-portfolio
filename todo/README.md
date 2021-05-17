@@ -1,24 +1,19 @@
-# todo
 
-## Project setup
-```
-yarn install
-```
+# Portfólio
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Meu primeiro projeto de portfólio desenvolvido para a matéria acessibilidade na faculdade Fatec Taquaritinga!
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Criador
+
+- [Marcio Lacerda](https://github.com/Th3mike)
+
+
+## O que foi utilizado no projeto
+
+- [Vue.js](https://vuejs.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+  
