@@ -32,7 +32,6 @@
         <h4>E-mail</h4>
         <a
           v-bind:href="'mailto:maarcio_lacerda@hotmail.com'"
-          class="text-decoration-underline"
         >
           <p>Maarcio_lacerda@hotmail.com</p>
         </a>
@@ -85,10 +84,6 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style>
 img {

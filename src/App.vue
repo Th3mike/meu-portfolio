@@ -3,7 +3,7 @@
     <Navbar />
     <Eu />
     <Skills />
-    <Skills />
+    <Works />
     <Footer />
   </div>
 </template>
@@ -15,6 +15,8 @@ import Eu from './components/eu'
 
 import Skills from './components/skills'
 
+import Works from './components/works'
+
 import Footer from './components/footer'
 
 export default {
@@ -23,6 +25,7 @@ export default {
     Navbar,
     Eu,
     Skills,
+    Works,
     Footer
   }
 }

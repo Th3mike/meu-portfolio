@@ -5,9 +5,10 @@
         <a href="#"><i class="icon ion-social-instagram"></i></a>
         <a href="#"><i class="icon ion-social-facebook"></i></a>
       </div>
-      <p class="copyright">Copyright ©2021 Todos os direitos reservados | 
+      <p class="copyright">Copyright ©2021 Todos os direitos reservados
+        <br> 
         Desenvolvido por 
-        <a v-bind:href="'https://github.com/Th3mike/meu-portfolio'" target="_blank" class="text-decoration-underline">Marcio Lacerda</a>
+        <a v-bind:href="'https://github.com/Th3mike/'" target="_blank" class="text-decoration-underline">Marcio Lacerda</a>
         </p>
     </footer>
   </div>
