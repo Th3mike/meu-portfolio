@@ -160,6 +160,8 @@ li {
   }
   .text {
     font-size: 8px;
+      top: 57.5%;
+  left: 50%;
   }
 }
 </style>
