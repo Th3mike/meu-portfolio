@@ -2,23 +2,28 @@
   <div id="app">
     <Navbar />
     <Eu />
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Skills />
+    <Skills />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './pages/Home'
-
 import Navbar from './components/navbar'
 
 import Eu from './components/eu'
 
+import Skills from './components/skills'
+
+import Footer from './components/footer'
+
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Navbar,
-    Eu
+    Eu,
+    Skills,
+    Footer
   }
 }
 </script>
