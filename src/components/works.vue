@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5 mb-5">
+  <div class="container margin-custom">
     <h1>Projetos</h1>
     <div class="d-flex justify-content-evenly">
       <div class="imagem">

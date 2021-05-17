@@ -2,9 +2,9 @@
   <div id="app">
     <Navbar />
     <Eu />
-    <Skills />
-    <Works />
-    <Footer />
+    <Skills id="skills"/>
+    <Works id="works"/>
+    <Footer id="footer"/>
   </div>
 </template>
 
