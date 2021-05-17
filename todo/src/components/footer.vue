@@ -2,12 +2,13 @@
   <div class="footer-basic">
     <footer class="footer">
       <div class="social">
-        <a href="#"><i class="icon ion-social-instagram"></i></a
-        ><a href="#"><i class="icon ion-social-snapchat"></i></a
-        ><a href="#"><i class="icon ion-social-twitter"></i></a
-        ><a href="#"><i class="icon ion-social-facebook"></i></a>
+        <a href="#"><i class="icon ion-social-instagram"></i></a>
+        <a href="#"><i class="icon ion-social-facebook"></i></a>
       </div>
-      <p class="copyright">Company Name © 2021</p>
+      <p class="copyright">Copyright ©2021 Todos os direitos reservados | 
+        Desenvolvido por 
+        <a v-bind:href="'https://github.com/Th3mike/meu-portfolio'" target="_blank" class="text-decoration-underline">Marcio Lacerda</a>
+        </p>
     </footer>
   </div>
 </template>

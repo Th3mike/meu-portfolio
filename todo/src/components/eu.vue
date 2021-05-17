@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column bd-highlight mb-3 background">
+  <div class="d-flex flex-column bd-highlight background">
     <div>
       <img
         src="../assets/foto-perfil.jpg"
@@ -15,7 +15,7 @@
         ullam, magni nesciunt veritatis commodi fugit nisi saepe quas alias in.
       </p>
     </div>
-    <div class="d-flex justify-content-evenly">
+    <div class="d-flex justify-content-evenly size">
       <div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -112,5 +112,14 @@ a {
 a:hover {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.836);
+}
+
+@media only screen and (max-width: 600px) {
+img {
+  width: 100px;
+}
+.size {
+  flex-direction: column;
+}
 }
 </style>
