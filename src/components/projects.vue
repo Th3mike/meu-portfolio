@@ -1,6 +1,6 @@
 <template>
   <div class="container margin-custom">
-    <h1>Projetos</h1>
+    <h1 class="display-2 mb-5">{{ $t("message.projects") }}</h1>
     <div class="d-flex justify-content-evenly">
       <div class="imagem">
         <img
@@ -11,20 +11,14 @@
         <div class="overlay">
           <div class="text">
             <p>
-              Meu primeiro projeto desenvolvido foi este site que você esta!
+              {{ $t("message.projectSub1") }}
             </p>
-            <p>
-              E ainda te digo mais!
-            </p>
-            <p>
-              <a
-                v-bind:href="'https://github.com/Th3mike/meu-portfolio'"
-                class="text-decoration-underline"
-                target="_blank"
-                >Clique aqui
-              </a>
-              para ver como foi feito no GitHub
-            </p>
+            <a
+              v-bind:href="'https://github.com/Th3mike/meu-portfolio'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub1") }}
+            </a>
           </div>
         </div>
       </div>
@@ -32,21 +26,19 @@
         <img
           src="../assets/image-01.png"
           class="image rounded"
-          alt="Primeiro projeto"
+          alt="Stacy-Store"
         />
         <div class="overlay">
           <div class="text">
             <p>
-              Meu primeiro projeto desenvolvido foi este site que você esta!
-              <br />
-              E ainda te digo mais! Clique aqui para ver como foi feito no
-              <a
-                v-bind:href="'https://github.com/Th3mike/meu-portfolio'"
-                class="text-decoration-underline"
-                target="_blank"
-                >GitHub!</a
-              >
+               {{ $t("message.projectSub2") }}
             </p>
+            <a
+              v-bind:href="'https://github.com/Th3mike/projeto-integrador'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub2") }}</a
+            >
           </div>
         </div>
       </div>
@@ -63,16 +55,14 @@
         <div class="overlay">
           <div class="text">
             <p>
-              Meu primeiro projeto desenvolvido foi este site que você esta!
-              <br />
-              E ainda te digo mais! Clique aqui para ver como foi feito no
-              <a
-                v-bind:href="'https://github.com/Th3mike/meu-portfolio'"
-                class="text-decoration-underline"
-                target="_blank"
-                >GitHub!</a
-              >
+               {{ $t("message.projectSub3") }}
             </p>
+            <a
+              v-bind:href="'https://github.com/Th3mike/primeiro-semestre'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub3") }}</a
+            >
           </div>
         </div>
       </div>
@@ -85,16 +75,14 @@
         <div class="overlay">
           <div class="text">
             <p>
-              Meu primeiro projeto desenvolvido foi este site que você esta!
-              <br />
-              E ainda te digo mais! Clique aqui para ver como foi feito no
-              <a
-                v-bind:href="'https://github.com/Th3mike/meu-portfolio'"
-                class="text-decoration-underline"
-                target="_blank"
-                >GitHub!</a
-              >
+               {{ $t("message.projectSub4") }}
             </p>
+            <a
+              v-bind:href="'https://github.com/wyvern800/per-front'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub4") }}</a
+            >
           </div>
         </div>
       </div>
@@ -161,8 +149,8 @@ li {
   }
   .text {
     font-size: 8px;
-      top: 57.5%;
-  left: 50%;
+    top: 57.5%;
+    left: 50%;
   }
 }
 </style>

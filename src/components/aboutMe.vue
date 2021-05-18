@@ -29,8 +29,8 @@
           />
         </svg>
         <h4>E-mail</h4>
-        <a v-bind:href="'mailto:maarcio_lacerda@hotmail.com'">
-          <p>Maarcio_lacerda@hotmail.com</p>
+        <a v-bind:href="'mailto:lacerda-contato@hotmail.com'">
+          <p>Lacerda-contato@hotmail.com</p>
         </a>
       </div>
       <div>

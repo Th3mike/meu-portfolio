@@ -1,12 +1,12 @@
 <template>
   <div class="container">
     <form @submit.prevent="sendEmail">
-      <label>Nome</label>
+      <label>{{ $t("message.contactName") }}</label>
       <input
         type="text"
         v-model="name"
         name="name"
-        placeholder="Seu nome"
+        v-bind:placeholder="$t('message.contactNameInput')"
         @keypress="isLetter($event)"
         :maxlength="max"
       />
@@ -15,19 +15,19 @@
         type="email"
         v-model="email"
         name="email"
-        placeholder="Seu e-mail"
+        v-bind:placeholder="$t('message.contactEmailInput')"
       />
-      <label>Mensagem</label>
+      <label>{{ $t("message.contactMessage") }}</label>
       <textarea
         name="message"
         v-model="message"
         cols="30"
         rows="5"
-        placeholder="Sua mensagem"
+        v-bind:placeholder="$t('message.contactMessageInput')"
       >
       </textarea>
 
-      <input type="submit" value="Enviar" />
+      <input type="submit" v-bind:value="$t('message.contactButton')" />
     </form>
     <notifications position="top center" />
   </div>
@@ -143,7 +143,7 @@ input[type="submit"]:hover {
   margin: auto;
   text-align: center;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: rgb(214, 214, 214);
   padding: 20px;
   width: 50%;
   margin-top: 5%;
