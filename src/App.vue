@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar />
-    <Eu />
+    <AboutMe id="aboutme"/>
     <Skills id="skills"/>
     <Works id="works"/>
     <Contact id="contact"/>
@@ -12,7 +12,7 @@
 <script>
 import Navbar from './components/navbar'
 
-import Eu from './components/eu'
+import AboutMe from './components/aboutMe'
 
 import Skills from './components/skills'
 
@@ -26,7 +26,7 @@ export default {
   name: 'App',
   components: {
     Navbar,
-    Eu,
+    AboutMe,
     Skills,
     Works,
     Contact,

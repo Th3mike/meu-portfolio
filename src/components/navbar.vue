@@ -6,7 +6,8 @@
       :class="{ onScroll: !view.topOfPage }"
     >
       <div class="container-fluid d-flex justify-content-evenly">
-        <a href="#" class="navbar-brand" v-scroll-to="'#skills'">Skills</a>
+        <a href="#" class="navbar-brand" v-scroll-to="'#aboutme'">Sobre eu</a>
+        <a href="#" class="navbar-brand" v-scroll-to="'#skills'">Habilidades</a>
         <a href="#" class="navbar-brand" v-scroll-to="'#works'">Projetos</a>
         <a href="#" class="navbar-brand" v-scroll-to="'#contact'">Contato</a>
       </div>
