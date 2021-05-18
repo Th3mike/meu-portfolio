@@ -115,6 +115,7 @@ li {
 }
 .imagem {
   position: relative;
+  cursor: pointer;
 }
 
 .image {

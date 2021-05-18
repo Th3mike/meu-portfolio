@@ -4,7 +4,8 @@
     <Eu />
     <Skills id="skills"/>
     <Works id="works"/>
-    <Footer id="footer"/>
+    <Contact id="contact"/>
+    <Footer />
   </div>
 </template>
 
@@ -17,6 +18,8 @@ import Skills from './components/skills'
 
 import Works from './components/works'
 
+import Contact from './components/contact'
+
 import Footer from './components/footer'
 
 export default {
@@ -26,6 +29,7 @@ export default {
     Eu,
     Skills,
     Works,
+    Contact,
     Footer
   }
 }
