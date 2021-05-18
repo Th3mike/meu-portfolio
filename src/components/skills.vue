@@ -1,16 +1,16 @@
 <template>
-  <div class="container margin-custom">
-    <h1>Skills</h1>
-    <div class="d-flex justify-content-evenly custom">
+  <div class="container margin-custom ">
+    <h1 class="display-2">{{ $t("message.skills")}}</h1>
+    <div class="d-flex justify-content-evenly">
       <div>
-        <h1>Competências</h1>
-        <ol class="list-group">
+        <h1>{{ $t("message.competences")}}</h1>
+        <ol class="list-group align-items-center">
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             <div class="ms-2 me-auto">
-              <div class="fw-bold">Trabalho em Equipe</div>
-              <p>Uma pessoa muito fácil de lidar em grupo e calma.</p>
+              <div class="fw-bold">{{ $t("message.teamWork")}}</div>
+              <p>{{ $t("message.teamWorkSub")}}</p>
             </div>
             <span class="badge bg-primary rounded-pill">100%</span>
           </li>
@@ -19,7 +19,7 @@
           >
             <div class="ms-2 me-auto">
               <div class="fw-bold">Microsoft Office</div>
-              <p>Tenho conhecimento sobre as ferramentas Office.</p>
+              <p>{{ $t("message.microsoftOfficeSub")}}</p>
             </div>
             <span class="badge bg-primary rounded-pill">95%</span>
           </li>
@@ -27,8 +27,8 @@
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             <div class="ms-2 me-auto">
-              <div class="fw-bold">Pró-ativo</div>
-              <p>Sou uma pessoa pró-ativa, sem tempo a perder.</p>
+              <div class="fw-bold">{{ $t("message.proactive")}}</div>
+              <p>{{ $t("message.proactiveSub")}}</p>
             </div>
             <span class="badge bg-primary rounded-pill">99%</span>
           </li>
@@ -36,8 +36,8 @@
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             <div class="ms-2 me-auto">
-              <div class="fw-bold">Eficiência em multitarefas</div>
-              <p>Capaz de realizar múltiplas tarefas ao mesmo tempo.</p>
+              <div class="fw-bold">{{ $t("message.multitasking")}}</div>
+              <p>{{ $t("message.multitaskingSub")}}</p>
             </div>
             <span class="badge bg-primary rounded-pill">99%</span>
           </li>
@@ -45,8 +45,8 @@
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             <div class="ms-2 me-auto">
-              <div class="fw-bold">Comunicação efetiva</div>
-              <p>Comunicação sem rodeios, sendo direto ao ponto.</p>
+              <div class="fw-bold">{{ $t("message.effectivecommunication")}}</div>
+              <p>{{ $t("message.effectivecommunicationSub")}}</p>
             </div>
             <span class="badge bg-primary rounded-pill">100%</span>
           </li>
