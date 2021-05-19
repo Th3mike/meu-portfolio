@@ -1,7 +1,7 @@
 <template>
   <div class="container margin-custom ">
     <h1 class="display-2 mb-5">{{ $t("message.skills")}}</h1>
-    <div class="d-flex justify-content-evenly">
+    <div class="d-flex justify-content-center">
       <div>
         <h1>{{ $t("message.competences")}}</h1>
         <ol class="list-group align-items-center">
