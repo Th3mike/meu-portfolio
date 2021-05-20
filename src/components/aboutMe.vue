@@ -4,7 +4,7 @@
       <img
         src="../assets/foto-perfil.jpg"
         alt="Marcio Lacerda"
-        class="rounded-circle"
+        class="rounded-circle slideInDown"
       />
     </div>
     <div>

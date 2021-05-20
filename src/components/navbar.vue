@@ -1,15 +1,21 @@
 <template>
   <header>
     <nav class="navbar fixed-top" :class="{ onScroll: !view.topOfPage }">
-      <div class="container-fluid d-flex justify-content-center">
+      <div class="container-fluid d-flex justify-content-start">
         <a href="#" class="navbar-brand" v-scroll-to="'#skills'">
-          <p class="mobile-font">{{ $t("message.nav1") }}</p></a
+          <p class="mobile-font border-bottom-custom">
+            {{ $t("message.nav1") }}
+          </p></a
         >
         <a href="#" class="navbar-brand" v-scroll-to="'#projects'">
-          <p class="mobile-font">{{ $t("message.nav2") }}</p></a
+          <p class="mobile-font border-bottom-custom">
+            {{ $t("message.nav2") }}
+          </p></a
         >
         <a href="#" class="navbar-brand" v-scroll-to="'#contact'">
-          <p class="mobile-font">{{ $t("message.nav3") }}</p></a
+          <p class="mobile-font border-bottom-custom">
+            {{ $t("message.nav3") }}
+          </p></a
         >
         <div class="dropdown position-absolute bottom-0 end-0 m-2">
           <button
@@ -76,12 +82,12 @@ export default {
 
 <style>
 header nav div a p:hover {
-color: transparent;
-background: #666666;
--webkit-background-clip: text;
--moz-background-clip: text;
-background-clip: text;
-text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
 }
 .flag {
   width: 50px;
@@ -94,6 +100,19 @@ nav {
   box-shadow: 0 0 10px #aaa;
   background-color: rgb(214, 214, 214);
 }
+.border-bottom-custom:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s;
+}
+.border-bottom-custom:hover:after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
 @media only screen and (max-width: 600px) {
   img {
     width: 100px;
