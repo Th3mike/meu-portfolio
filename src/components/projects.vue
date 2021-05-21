@@ -4,7 +4,7 @@
     <div class="d-flex justify-content-evenly">
       <div class="imagem">
         <img
-          src="../assets/image-01.png"
+          src="../assets/img01.jpg"
           class="image rounded"
           alt="Primeiro projeto"
         />
@@ -24,7 +24,7 @@
       </div>
       <div class="imagem">
         <img
-          src="../assets/image-01.png"
+          src="../assets/img02.jpg"
           class="image rounded"
           alt="Stacy-Store"
         />
@@ -48,7 +48,7 @@
     <div class="d-flex justify-content-evenly">
       <div class="imagem">
         <img
-          src="../assets/image-01.png"
+          src="../assets/img03.jpg"
           class="image rounded"
           alt="Primeiro projeto"
         />
@@ -68,9 +68,9 @@
       </div>
       <div class="imagem">
         <img
-          src="../assets/image-01.png"
+          src="../assets/img04.jpg"
           class="image rounded"
-          alt="Primeiro projeto"
+          alt="React"
         />
         <div class="overlay">
           <div class="text">

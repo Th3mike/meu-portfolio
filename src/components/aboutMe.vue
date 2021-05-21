@@ -2,12 +2,17 @@
   <div class="d-flex flex-column bd-highlight background">
     <div>
       <img
-        src="../assets/foto-perfil.jpg"
+        src="../assets/eu.jpg"
         alt="Marcio Lacerda"
         class="rounded-circle slideInDown"
       />
     </div>
     <div>
+      <a href="../pdf/Marcio Lacerda - Currículo.pdf" target="_blank" download>
+          <p class="mobile-font"><ins>
+            {{ $t("message.downloadPDF") }}
+          </ins></p></a
+        >
       <h1 class="display-3">{{ $t("message.about")}}</h1>
     </div>
     <div>
