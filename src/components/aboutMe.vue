@@ -17,7 +17,7 @@
     </div>
     <div>
       <p class="h4">{{ $t("message.aboutme")}}</p>
-      <p class="h4">{{ $t("message.aboutme2")}}</p>
+      <p class="h4"><em>{{ $t("message.aboutme2")}}</em></p>
     </div>
     <div class="d-flex justify-content-evenly size">
       <div>
@@ -35,7 +35,7 @@
         </svg>
         <h4>E-mail</h4>
         <a v-bind:href="'mailto:lacerda-contato@hotmail.com'">
-          <p>Lacerda-contato@hotmail.com</p>
+          <p><strong><u>Lacerda-contato@hotmail.com</u></strong></p>
         </a>
       </div>
       <div>
@@ -56,7 +56,7 @@
           v-bind:href="'https://api.whatsapp.com/send?phone=5516988724138&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Eu%20irei%20te%20responder%20assim%20que%20estiver%20com%20um%20tempinho!'"
           target="_blank"
           class="text-decoration-underline"
-          ><p>+55 16 988724138</p></a
+          ><p><strong>+55 16 988724138</strong></p></a
         >
       </div>
       <div>
@@ -78,9 +78,9 @@
             v-bind:href="'https://www.linkedin.com/in/marcio-lacerda-7a9425188/'"
             target="_blank"
             class="text-decoration-underline"
-            >{{ $t("message.linkedin")}}</a
-          >
-          {{ $t("message.linkedin2")}}
+            ><strong>{{ $t("message.linkedin")}}</strong></a
+          ><strong>
+          {{ $t("message.linkedin2")}}</strong>
         </p>
       </div>
     </div>

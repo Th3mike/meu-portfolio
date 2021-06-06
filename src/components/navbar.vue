@@ -126,7 +126,7 @@ nav {
     font-size: 15px;
   }
   .dropdown-custom {
-    margin-bottom: -15px;
+    margin-bottom: -10px;
     width: 350px;
   }
 }
