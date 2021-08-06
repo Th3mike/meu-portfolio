@@ -88,6 +88,52 @@
       </div>
     </div>
     <!--- Fim da segunda box --->
+    <hr class="style13" />
+        <!--- terceira box --->
+    <div class="d-flex justify-content-evenly">
+      <div class="imagem">
+        <img
+          src="../assets/img05.jpg"
+          class="image rounded h-100"
+          alt="Naruto Arena"
+        />
+        <div class="overlay">
+          <div class="text">
+            <p>
+               {{ $t("message.projectSub5") }}
+            </p>
+            <a
+              v-bind:href="'https://naruto-arena-br.netlify.app/'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub5") }}</a
+            >
+          </div>
+        </div>
+      </div>
+       <!--- terceira box --->
+      <div class="imagem">
+        <img
+          src="../assets/img06.jpg"
+          class="image rounded"
+          alt="React"
+        />
+        <div class="overlay">
+          <div class="text">
+            <p>
+               {{ $t("message.projectSub6") }}
+            </p>
+            <a
+              v-bind:href="'https://naruto-arena-br.herokuapp.com/'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub6") }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--- Fim da terceira box --->
   </div>
 </template>
 

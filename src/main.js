@@ -83,6 +83,10 @@ const messages = {
       footerDeveloped: "Developed by ",
       back: "Back to top",
       downloadPDF: "Download Resume",
+      projectSub5: "Developed with Spring and Nuxt.js, demo below.",
+      gitHub5: "Click here",
+      projectSub6: "First API I developed simple, just putting the JSON server in live.",
+      gitHub6: "Click here",
     },
   },
   pt: {
@@ -142,6 +146,10 @@ const messages = {
       footerDeveloped: "Desenvolvido por ",
       back: "Voltar ao topo",
       downloadPDF: "Baixar Currículo",
+      projectSub5: "Desenvolvido com Spring e Nuxt.js, demo abaixo.",
+      gitHub5: "Clique aqui",
+      projectSub6: "Primeira API que desenvolvi simples, apenas colocando o JSON server em live.",
+      gitHub6: "Clique aqui",
     },
   },
 };
