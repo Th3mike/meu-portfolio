@@ -132,8 +132,28 @@
           </div>
         </div>
       </div>
+             <!--- quarta box --->
+      <div class="imagem">
+        <img
+          src="../assets/onyxiascholarship.jpg"
+          class="image rounded"
+          alt="React"
+        />
+        <div class="overlay">
+          <div class="text">
+            <p>
+               {{ $t("message.projectSub7") }}
+            </p>
+            <a
+              v-bind:href="'https://onyxiascholarship.netlify.app/'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub7") }}</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
-    <!--- Fim da terceira box --->
   </div>
 </template>
 

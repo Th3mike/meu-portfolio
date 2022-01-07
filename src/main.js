@@ -41,7 +41,7 @@ const messages = {
       aboutme:
         "A proactive person, very patient and who will never deliver your task/project after the deadline!",
       aboutme2:
-        "Only 22 years old, studying Internet Systems at FATEC TAQUARITINGA.",
+        "Only 23 years old, studying Internet Systems at FATEC TAQUARITINGA.",
       phone: "Phone",
       linkedin: "Click here",
       linkedin2: "to see my profile",
@@ -87,6 +87,8 @@ const messages = {
       gitHub5: "Click here",
       projectSub6: "First API I developed simple, just putting the JSON server in live.",
       gitHub6: "Click here",
+      projectSub7: "Site that was made for a school of the game Axie Infinity (NFT GAME)",
+      gitHub7: "Click here",
     },
   },
   pt: {
@@ -101,7 +103,7 @@ const messages = {
       aboutme:
         "Uma pessoa pró-ativa, com muita paciência e que nunca irar entregar sua tarefa/projeto depois do prazo!",
       aboutme2:
-        "Com apenas 22 anos, cursando Sistemas para Internet na FATEC TAQUARITINGA.",
+        "Com apenas 23 anos, cursando Sistemas para Internet na FATEC TAQUARITINGA.",
       phone: "Telefone",
       linkedin: "Clique aqui ",
       linkedin2: "para ver meu perfil",
@@ -150,6 +152,8 @@ const messages = {
       gitHub5: "Clique aqui",
       projectSub6: "Primeira API que desenvolvi simples, apenas colocando o JSON server em live.",
       gitHub6: "Clique aqui",
+      projectSub7: "Site que foi feito para uma escolinha do game Axie Infinity (NFT GAME)",
+      gitHub7: "Click here",
     },
   },
 };

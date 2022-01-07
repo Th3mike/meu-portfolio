@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column bd-highlight background">
+  <div class="d-flex flex-column bd-highlight">
     <div>
       <img
         src="../assets/eu.jpg"
@@ -91,10 +91,7 @@
 img {
   width: 200px;
   height: 100%;
-}
-
-.background {
-  background-color: rgb(214, 214, 214);
+  margin-right: 10px;
 }
 
 h1,
