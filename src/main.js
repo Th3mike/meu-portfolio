@@ -37,7 +37,7 @@ const messages = {
       nav1: "Skills",
       nav2: "Projects",
       nav3: "Contact",
-      about: "Who is Marcio?",
+      about: "Who am I?",
       aboutme:
         "A proactive person, very patient and who will never deliver your task/project after the deadline!",
       aboutme2:
@@ -89,6 +89,8 @@ const messages = {
       gitHub6: "Click here",
       projectSub7: "Site that was made for a school of the game Axie Infinity (NFT GAME)",
       gitHub7: "Click here",
+      projectSub8: "Basic landing page developed for a client.",
+      gitHub8: "Click here",
     },
   },
   pt: {
@@ -99,7 +101,7 @@ const messages = {
       nav1: "Habilidades",
       nav2: "Projetos",
       nav3: "Contato",
-      about: "Quem é Marcio?",
+      about: "Quem sou eu?",
       aboutme:
         "Uma pessoa pró-ativa, com muita paciência e que nunca irar entregar sua tarefa/projeto depois do prazo!",
       aboutme2:
@@ -152,8 +154,10 @@ const messages = {
       gitHub5: "Clique aqui",
       projectSub6: "Primeira API que desenvolvi simples, apenas colocando o JSON server em live.",
       gitHub6: "Clique aqui",
-      projectSub7: "Site que foi feito para uma escolinha do game Axie Infinity (NFT GAME)",
-      gitHub7: "Click here",
+      projectSub7: "Site que foi feito para uma escolinha do game Axie Infinity (NFT GAME).",
+      gitHub7: "Clique aqui",
+      projectSub8: "Landing page básica desenvolvida para um cliente.",
+      gitHub8: "Clique aqui",
     },
   },
 };

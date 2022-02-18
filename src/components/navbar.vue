@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav class="navbar fixed-top" :class="{ onScroll: !view.topOfPage }">
-      <div class="container-fluid d-flex justify-content-start">
+      <div class="container-fluid d-flex justify-content-start mt-3">
         <a href="#" class="navbar-brand" v-scroll-to="'#skills'">
           <p class="mobile-font border-bottom-custom">
             {{ $t("message.nav1") }}
@@ -112,6 +112,7 @@ nav {
   width: 100%;
   transition: width 0.3s;
 }
+
 
 @media only screen and (max-width: 600px) {
   img {

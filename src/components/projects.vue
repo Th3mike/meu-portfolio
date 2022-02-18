@@ -86,6 +86,27 @@
           </div>
         </div>
       </div>
+
+            <div class="imagem">
+        <img
+          src="../assets/img07.jpg"
+          class="image rounded h-100"
+          alt="React"
+        />
+        <div class="overlay">
+          <div class="text">
+            <p>
+               {{ $t("message.projectSub8") }}
+            </p>
+            <a
+              v-bind:href="'https://rsps-website.netlify.app/'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub8") }}</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
     <!--- Fim da segunda box --->
     <hr class="style13" />
@@ -152,6 +173,7 @@
             >
           </div>
         </div>
+        
       </div>
     </div>
   </div>
