@@ -163,7 +163,8 @@ const messages = {
 };
 
 const i18n = new VueI18n({
-  locale: "en",
+  //locale: "en",
+  locale: (localStorage.getItem('pt-BR') || 'en'), // set default locale
   messages,
 });
 

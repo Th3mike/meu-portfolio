@@ -34,8 +34,8 @@
           />
         </svg>
         <h4>E-mail</h4>
-        <a v-bind:href="'mailto:lacerda-contato@hotmail.com'">
-          <p><strong><u>Lacerda-contato@hotmail.com</u></strong></p>
+        <a v-bind:href="'mailto:maarcio_lacerda@hotmail.com'">
+          <p><strong><u>maarcio_lacerda@hotmail.com</u></strong></p>
         </a>
       </div>
       <div>
@@ -53,10 +53,10 @@
         </svg>
         <h4>{{ $t("message.phone")}}</h4>
         <a
-          v-bind:href="'https://api.whatsapp.com/send?phone=5516988724138&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Eu%20irei%20te%20responder%20assim%20que%20estiver%20com%20um%20tempinho!'"
+          v-bind:href="'https://api.whatsapp.com/send?phone=5516996369206&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Eu%20irei%20te%20responder%20assim%20que%20estiver%20com%20um%20tempinho!'"
           target="_blank"
           class="text-decoration-underline"
-          ><p><strong>+55 16 988724138</strong></p></a
+          ><p><strong>+55 16 996369206</strong></p></a
         >
       </div>
       <div>

@@ -32,7 +32,7 @@
             aria-labelledby="dropdownMenuButton1"
           >
             <li>
-              <a type="submit" @click="$i18n.locale = 'pt-br'">
+              <a type="submit" @click="$i18n.locale = 'pt-BR'">
                 <img src="../assets/brazil.jpg" alt="Brazil" class="flag m-1" />
                 {{ $t("message.languagePT") }}
               </a>
