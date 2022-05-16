@@ -91,6 +91,8 @@ const messages = {
       gitHub7: "Click here",
       projectSub8: "Basic landing page developed for a client.",
       gitHub8: "Click here",
+      projectSub9: "React.js CRUD.",
+      gitHub9: "Click here",
     },
   },
   pt: {
@@ -158,6 +160,8 @@ const messages = {
       gitHub7: "Clique aqui",
       projectSub8: "Landing page básica desenvolvida para um cliente.",
       gitHub8: "Clique aqui",
+      projectSub9: "React.js CRUD.",
+      gitHub9: "Clique aqui",
     },
   },
 };

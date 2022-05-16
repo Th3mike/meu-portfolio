@@ -173,8 +173,29 @@
             >
           </div>
         </div>
-        
       </div>
+
+            <div class="imagem">
+        <img
+          src="../assets/react.jpg"
+          class="image rounded"
+          alt="React"
+        />
+        <div class="overlay">
+          <div class="text">
+            <p>
+               {{ $t("message.projectSub9") }}
+            </p>
+            <a
+              v-bind:href="'https://github.com/Th3mike/supliu-challenge'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub9") }}</a
+            >
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
 </template>

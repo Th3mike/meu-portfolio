@@ -8,7 +8,7 @@
       />
     </div>
     <div>
-      <a href="../pdf/Marcio Lacerda - Currículo.pdf" target="_blank" download>
+      <a href="../pdf/Marcio Lacerda.pdf" target="_blank" download>
           <p class="mobile-font"><ins>
             {{ $t("message.downloadPDF") }}
           </ins></p></a
