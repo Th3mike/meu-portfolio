@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar />
+    <Navbar id="navbar"/>
     <AboutMe id="aboutme" />
     <Skills id="skills" />
     <Projects id="projects" />

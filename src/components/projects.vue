@@ -31,7 +31,7 @@
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub2") }}
+              {{ $t("message.projectSub2") }}
             </p>
             <a
               v-bind:href="'https://github.com/Th3mike/projeto-integrador'"
@@ -55,7 +55,7 @@
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub3") }}
+              {{ $t("message.projectSub3") }}
             </p>
             <a
               v-bind:href="'https://github.com/Th3mike/primeiro-semestre'"
@@ -67,15 +67,11 @@
         </div>
       </div>
       <div class="imagem">
-        <img
-          src="../assets/img04.jpg"
-          class="image rounded"
-          alt="React"
-        />
+        <img src="../assets/img04.jpg" class="image rounded" alt="React" />
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub4") }}
+              {{ $t("message.projectSub4") }}
             </p>
             <a
               v-bind:href="'https://github.com/wyvern800/per-front'"
@@ -87,7 +83,7 @@
         </div>
       </div>
 
-            <div class="imagem">
+      <div class="imagem">
         <img
           src="../assets/img07.jpg"
           class="image rounded h-100"
@@ -96,7 +92,7 @@
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub8") }}
+              {{ $t("message.projectSub8") }}
             </p>
             <a
               v-bind:href="'https://rsps-website.netlify.app/'"
@@ -110,7 +106,7 @@
     </div>
     <!--- Fim da segunda box --->
     <hr class="style13" />
-        <!--- terceira box --->
+    <!--- terceira box --->
     <div class="d-flex justify-content-evenly">
       <div class="imagem">
         <img
@@ -121,7 +117,7 @@
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub5") }}
+              {{ $t("message.projectSub5") }}
             </p>
             <a
               v-bind:href="'https://naruto-arena-br.netlify.app/'"
@@ -132,17 +128,13 @@
           </div>
         </div>
       </div>
-       <!--- terceira box --->
+      <!--- terceira box --->
       <div class="imagem">
-        <img
-          src="../assets/img06.jpg"
-          class="image rounded"
-          alt="React"
-        />
+        <img src="../assets/img06.jpg" class="image rounded" alt="React" />
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub6") }}
+              {{ $t("message.projectSub6") }}
             </p>
             <a
               v-bind:href="'https://naruto-arena-br.herokuapp.com/'"
@@ -153,7 +145,7 @@
           </div>
         </div>
       </div>
-             <!--- quarta box --->
+      <!--- quarta box --->
       <div class="imagem">
         <img
           src="../assets/onyxiascholarship.jpg"
@@ -163,7 +155,7 @@
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub7") }}
+              {{ $t("message.projectSub7") }}
             </p>
             <a
               v-bind:href="'https://onyxiascholarship.netlify.app/'"
@@ -175,16 +167,16 @@
         </div>
       </div>
 
-            <div class="imagem">
+      <div class="imagem">
         <img
           src="../assets/react.jpg"
-          class="image rounded"
+          class="image rounded broken-image"
           alt="React"
         />
         <div class="overlay">
           <div class="text">
             <p>
-               {{ $t("message.projectSub9") }}
+              {{ $t("message.projectSub9") }}
             </p>
             <a
               v-bind:href="'https://github.com/Th3mike/supliu-challenge'"
@@ -195,7 +187,6 @@
           </div>
         </div>
       </div>
-      
     </div>
   </div>
 </template>
@@ -217,7 +208,7 @@ li {
 
 .image {
   display: block;
-  width: 370px;
+  width: 330px;
   height: auto;
 }
 

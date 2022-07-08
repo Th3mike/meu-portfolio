@@ -16,7 +16,7 @@
           >Marcio Lacerda</a
         >
       </p>
-      <a href="#" class="d-flex justify-content-center" v-scroll-to="'#app'">
+      <a href="#" class="d-flex justify-content-center" v-scroll-to="'#navbar'">
         <button class="btn btn-dark mt-3 button-footer">{{ $t("message.back") }}</button></a
       >
     </footer>

@@ -4,7 +4,7 @@
       <img
         src="../assets/eu.jpg"
         alt="Marcio Lacerda"
-        class="rounded-circle slideInDown"
+        class="rounded slideInDown"
       />
     </div>
     <div>
@@ -56,7 +56,7 @@
           v-bind:href="'https://api.whatsapp.com/send?phone=5516996369206&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Eu%20irei%20te%20responder%20assim%20que%20estiver%20com%20um%20tempinho!'"
           target="_blank"
           class="text-decoration-underline"
-          ><p><strong>+55 16 996369206</strong></p></a
+          ><p><strong>WhatsApp</strong></p></a
         >
       </div>
       <div>

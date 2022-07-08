@@ -19,7 +19,14 @@
         >
         <div class="dropdown position-absolute bottom-0 end-0 m-2">
           <button
-            class="container-fluid btn dropdown-toggle navbar-brand mobile-font dropdown-custom"
+            class="
+              container-fluid
+              btn
+              dropdown-toggle
+              navbar-brand
+              mobile-font
+              dropdown-custom
+            "
             type="button"
             id="dropdownMenuButton1"
             data-bs-toggle="dropdown"
@@ -83,11 +90,10 @@ export default {
 <style>
 header nav div a p:hover {
   color: transparent;
-  background: #666666;
+  background: black;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
 }
 .flag {
   width: 50px;
@@ -98,7 +104,7 @@ nav {
 }
 .onScroll {
   box-shadow: 0 0 10px #aaa;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(214,214,214);
 }
 .border-bottom-custom:after {
   content: "";
@@ -112,7 +118,6 @@ nav {
   width: 100%;
   transition: width 0.3s;
 }
-
 
 @media only screen and (max-width: 600px) {
   img {
