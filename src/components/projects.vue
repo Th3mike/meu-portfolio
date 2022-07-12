@@ -208,7 +208,7 @@ li {
 
 .image {
   display: block;
-  width: 330px;
+  width: 325px;
   height: auto;
 }
 
