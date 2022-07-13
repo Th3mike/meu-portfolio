@@ -208,7 +208,7 @@ li {
 
 .image {
   display: block;
-  width: 25px;
+  width: 300px;
   height: auto;
 }
 
@@ -231,7 +231,7 @@ li {
 
 .text {
   color: white;
-  font-size: 18px;
+  font-size: 15.5px;
   position: absolute;
   top: 50%;
   left: 50%;
