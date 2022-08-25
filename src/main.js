@@ -39,9 +39,9 @@ const messages = {
       nav3: "Contact",
       about: "Who am I?",
       aboutme:
-        "A proactive person, very patient and who will never deliver your task/project after the deadline!",
+        "A proactive, patient and determined person in the search for a positive result!",
       aboutme2:
-        "Only 23 years old, studying Internet Systems at FATEC TAQUARITINGA.",
+        "23 years old, studying Internet Systems at FATEC TAQUARITINGA.",
       phone: "Phone",
       linkedin: "Click here",
       linkedin2: "",
@@ -105,9 +105,9 @@ const messages = {
       nav3: "Contato",
       about: "Quem sou eu?",
       aboutme:
-        "Uma pessoa pró-ativa, com muita paciência e que nunca irar entregar sua tarefa/projeto depois do prazo!",
+        "Uma pessoa pró-ativa, paciente e determinada na busca do resultado positivo!",
       aboutme2:
-        "Com apenas 23 anos, cursando Sistemas para Internet na FATEC TAQUARITINGA.",
+        "23 anos, cursando Sistemas para Internet na FATEC TAQUARITINGA.",
       phone: "Telefone",
       linkedin: "Clique aqui ",
       linkedin2: "",
