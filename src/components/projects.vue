@@ -187,6 +187,26 @@
           </div>
         </div>
       </div>
+      <div class="imagem">
+        <img
+          src="../assets/poke.jpg"
+          class="image rounded broken-image"
+          alt="React"
+        />
+        <div class="overlay">
+          <div class="text">
+            <p>
+              {{ $t("message.projectSub10") }}
+            </p>
+            <a
+              v-bind:href="'https://pokexgames-balls.netlify.app/'"
+              class="text-decoration-underline"
+              target="_blank"
+              >{{ $t("message.gitHub10") }}</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
