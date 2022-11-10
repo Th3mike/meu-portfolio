@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column bd-highlight justify-content-center">
+  <div class="d-flex flex-column bd-highlight justify-content-center align-items-center">
     <div>
       <img
         src="../assets/eu.jpg"
@@ -20,7 +20,7 @@
       <p class="h4"><em>{{ $t("message.aboutme2")}}</em></p>
     </div>
     <div class="d-flex justify-content-evenly size">
-      <div>
+      <div class="d-flex justify-content-center align-items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
