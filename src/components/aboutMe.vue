@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column bd-highlight justify-content-center align-items-center">
+  <div class="d-flex flex-column bd-highlight justify-content-center">
     <div>
       <img
         src="../assets/eu.jpg"
