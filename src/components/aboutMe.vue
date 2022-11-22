@@ -20,7 +20,7 @@
       <p class="h4"><em>{{ $t("message.aboutme2")}}</em></p>
     </div>
     <div class="d-flex justify-content-evenly size">
-      <div class="d-flex justify-content-center align-items-center">
+      <div class="">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
